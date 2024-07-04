@@ -5,7 +5,7 @@
 	
 __main 
 	LDR r0, = 0xFFC0FFFF
-	LSLS r0, r0, #(32-16-8) ;#(32-w-p) w->width, p->starting posn from left
+	LSLS r0, r0, #(32-16-8) ;#(32-w-p) w->width, p->starting posn from right
 	LSRS r0, r0, #(32-8) ;#(32-w)
 	
 	LDR r0, = 0xFFC0FFFF
