@@ -5,7 +5,7 @@
 	
 __main 
 		LDR r0, = 0x20000000
-		LDR r1, = 0x20000040
+		LDR r1, = 0x20000120
 		MOVS r2, #128
 copy_loop
 		LDMIA r0!,{r4-r7}
